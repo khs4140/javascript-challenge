@@ -1,0 +1,66 @@
+body {
+    background-color: beige;
+    margin: 0 auto;
+}
+
+#greeting {
+    font-weight:bold;
+    transition: color .5s ease-in-out;
+    text-align: center;
+    font-size: 3.5rem;
+    text-shadow: 5px 5px 3px white;
+}
+
+/* .active {
+    color:tomato;
+} */
+
+#clock {
+    font-size: 3rem;
+    text-align: center;
+    font-weight:bold;
+    text-decoration: indigo underline;
+    text-shadow: 5px 5px 3px white;
+
+
+}
+
+#login-form {
+    text-align: right;
+}
+
+
+#todo-list, #todo-form {
+    font-size: 2.5rem;
+    text-align: left;
+    padding-left:3%;
+    text-shadow: 5px 5px 3px white;
+
+}
+
+#todo-list {
+    font-size: 1.5em;
+    text-shadow: 5px 5px 3px white;
+
+}
+
+input, button {
+    border-radius: 15px;
+    border-color : gray;
+}
+
+#quote {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 5px 5px 3px white;
+    position: absolute;
+    margin-top: 10%;
+}
+
+#weather {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight:bold;
+    text-shadow: 5px 5px 3px white;
+}
